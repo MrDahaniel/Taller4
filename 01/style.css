@@ -1,0 +1,68 @@
+body {
+    background-color: ghostwhite;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+hr {
+    width: 50%;
+    border: 1px solid lightgray;
+}
+
+.center {
+    text-align: center;
+    display: flexbox;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.column {
+    width: 100%;
+}
+
+form {
+    width: 50%;
+    overflow: hidden;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span input {
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid gray;
+    height: 2rem;
+    transition: 0.6s;
+}
+
+span input:hover,
+span input:focus {
+    transition: 0.6s;
+    background-color: gainsboro;
+}
+
+span {
+    display: block;
+    overflow: hidden;
+    padding-left: 1rem;
+    padding-bottom: 1rem;
+}
+
+label {
+    float: left;
+    font-size: 1.5rem;
+}
+
+.inbtn {
+    width: 100%;
+    border: none;
+    height: 3rem;
+    transition: 0.3s;
+    font-size: 1.5rem;
+}
+
+.inbtn:hover {
+    border-radius: 0px;
+    background-color: darkgreen;
+    color: whitesmoke;
+    transition: 0.3s;
+}
